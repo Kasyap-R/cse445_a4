@@ -1,136 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://kasyap-r.github.io/cse445_a4/Hotels.xsd">
-
-  <Hotel _Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address>
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="4.0">
-    <Name>Marriott Downtown</Name>
-    <Phone>602-555-1122</Phone>
-    <Address>
-      <Number>200</Number>
-      <Street>N Central Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <Hotel>
-    <Name>Hilton Garden Inn</Name>
-    <Phone>480-555-2233</Phone>
+    <Name>Hotel Valley Ho</Name>
     <Address>
-      <Number>114</Number>
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="3.9">
-    <Name>Hyatt Regency</Name>
-    <Phone>602-555-8899</Phone>
-    <Address>
-      <Number>122</Number>
-      <Street>E Washington St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Courtyard Scottsdale</Name>
-    <Phone>480-555-6677</Phone>
-    <Address>
-      <Number>3311</Number>
-      <Street>N Scottsdale Rd</Street>
+      <Number>6850</Number>
+      <Street>E Main St</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85251</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
+    <Phone type="local">480-376-2600</Phone>
+    <Phone type="tollfree">800-555-1234</Phone>
+    <Rating>4.5</Rating>
   </Hotel>
 
-  <Hotel _Rating="4.8">
-    <Name>Fairmont Princess</Name>
-    <Phone>480-585-4848</Phone>
+  <Hotel>
+    <Name>Arizona Biltmore</Name>
+    <Address>
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+    <Phone type="local">602-955-6600</Phone>
+    <Phone type="tollfree">800-555-5678</Phone>
+    <Rating>4.7</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Phoenician</Name>
+    <Address>
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+    <Phone type="local">480-941-8200</Phone>
+    <Phone type="tollfree">800-555-9876</Phone>
+    <Rating>4.6</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Sanctuary Camelback Mountain</Name>
+    <Address>
+      <Number>5700</Number>
+      <Street>E McDonald Dr</Street>
+      <City>Paradise Valley</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+    <Phone type="local">480-948-2100</Phone>
+    <Phone type="tollfree">800-555-2468</Phone>
+    <Rating>4.8</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt Regency Scottsdale</Name>
+    <Address>
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+    <Phone type="local">480-444-1234</Phone>
+    <Phone type="tollfree">800-555-4321</Phone>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Fairmont Scottsdale Princess</Name>
     <Address>
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85255</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
+    <Phone type="local">480-585-4848</Phone>
+    <Phone type="tollfree">800-555-8765</Phone>
+    <Rating>4.9</Rating>
   </Hotel>
 
   <Hotel>
-    <Name>Omni Montelucia</Name>
-    <Phone>480-627-3200</Phone>
+    <Name>Omni Scottsdale Resort</Name>
     <Address>
       <Number>4949</Number>
       <Street>E Lincoln Dr</Street>
-      <City>Paradise Valley</City>
+      <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85253</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
-  </Hotel>
-
-  <Hotel _Rating="3.8">
-    <Name>Embassy Suites</Name>
-    <Phone>602-222-1111</Phone>
-    <Address>
-      <Number>10</Number>
-      <Street>E Thomas Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85012</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
+    <Phone type="local">480-627-3200</Phone>
+    <Phone type="tollfree">800-555-1122</Phone>
+    <Rating>4.6</Rating>
   </Hotel>
 
   <Hotel>
-    <Name>AC Hotel Downtown</Name>
-    <Phone>602-555-9811</Phone>
+    <Name>Westin Kierland Resort</Name>
     <Address>
-      <Number>414</Number>
-      <Street>N 5th St</Street>
-      <City>Phoenix</City>
+      <Number>6902</Number>
+      <Street>E Greenway Pkwy</Street>
+      <City>Scottsdale</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+      <Zip>85254</Zip>
     </Address>
+    <Phone type="local">480-624-1000</Phone>
+    <Phone type="tollfree">800-555-3344</Phone>
+    <Rating>4.7</Rating>
   </Hotel>
 
-  <Hotel _Rating="4.5">
-    <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
+  <Hotel>
+    <Name>Hilton Phoenix Resort</Name>
     <Address>
-      <Number>225</Number>
-      <Street>E Apache Blvd</Street>
-      <City>Tempe</City>
+      <Number>11111</Number>
+      <Street>N 7th St</Street>
+      <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+      <Zip>85020</Zip>
     </Address>
+    <Phone type="local">602-866-7500</Phone>
+    <Phone type="tollfree">800-555-6677</Phone>
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>JW Marriott Desert Ridge</Name>
+    <Address>
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+    <Phone type="local">480-293-5000</Phone>
+    <Phone type="tollfree">800-555-7788</Phone>
+    <Rating>4.8</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Graduate Tucson</Name>
+    <Address>
+      <Number>930</Number>
+      <Street>E 2nd St</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85719</Zip>
+    </Address>
+    <Phone type="local">520-467-5900</Phone>
+    <Phone type="tollfree">800-555-9900</Phone>
+    <Rating>4.3</Rating>
   </Hotel>
 
 </Hotels>
