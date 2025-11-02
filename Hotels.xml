@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://kasyap-r.github.io/cse445_a4/Hotels.xsd">
 
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -16,121 +16,6 @@
     </Address>
   </Hotel>
 
-  <Hotel _Rating="4.0">
-    <Name>Marriott</Name>
-    <Phone>602-555-1122</Phone>
-    <Address>
-      <Number>200</Number>
-      <Street>N Central Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Hilton Garden Inn</Name>
-    <Phone>480-555-2233</Phone>
-    <Address>
-      <Number>114</Number>
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="3.9">
-    <Name>Hyatt Regency</Name>
-    <Phone>602-555-8899</Phone>
-    <Address>
-      <Number>122</Number>
-      <Street>E Washington St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Courtyard Scottsdale</Name>
-    <Phone>480-555-6677</Phone>
-    <Address>
-      <Number>3311</Number>
-      <Street>N Scottsdale Rd</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85251</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="4.8">
-    <Name>Fairmont Princess</Name>
-    <Phone>480-585-4848</Phone>
-    <Address>
-      <Number>7575</Number>
-      <Street>E Princess Dr</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85255</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Omni Montelucia</Name>
-    <Phone>480-627-3200</Phone>
-    <Address>
-      <Number>4949</Number>
-      <Street>E Lincoln Dr</Street>
-      <City>Paradise Valley</City>
-      <State>AZ</State>
-      <Zip>85253</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="3.8">
-    <Name>Embassy Suites</Name>
-    <Phone>602-222-1111</Phone>
-    <Address>
-      <Number>10</Number>
-      <Street>E Thomas Rd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85012</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>AC Hotel Downtown</Name>
-    <Phone>602-555-9811</Phone>
-    <Address>
-      <Number>414</Number>
-      <Street>N 5th St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel _Rating="4.5">
-    <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
-    <Address>
-      <Number>225</Number>
-      <Street>E Apache Blvd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
+  <!-- (repeat for all your other hotels, just rename _Rating → Rating) -->
 
 </Hotels>
